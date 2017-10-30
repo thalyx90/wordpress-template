@@ -1,67 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <!-- meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Bootstrap UI Kit">
-  <meta name="keywords" content="ui kit">
-  <meta name="author" content="UIdeck">
-
-  <title>Headers - Helium Bootstrap 4 UI Kit</title>
-
-  <!-- CSS Files -->
-  <!-- <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/animate.css">
-  <link rel="stylesheet" href="css/owl.carousel.css">
-  <link rel="stylesheet" href="css/owl.theme.css">
-  <link rel="stylesheet" href="css/responsive.css"> -->
-
-  <!-- Fonts icons -->
-  <!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
-
-  <?php wp_head(); ?>
-
-</head>
-
-<body>
-
-  <!-- Page Wrapper Start -->
-  <div class="wrapper">
-    <!-- Nav -->
-    <nav class="navbar navbar-toggleable-sm navbar-light bg-black">
-      <div class="container">
-        <a class="navbar-brand" href="index.html"><img src="img/logo-2.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar4" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbar4">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="home.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="services.html">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-        
-          </ul>
-          <form class="form-inline hidden-sm-down">
-            <div class="top_search_con">
-              <input class="form-control mr-sm-2" placeholder="Search Here ..." type="text">
-              <span class="top_search_icon"><i class="fa fa-search"></i></span>
-            </div>
-          </form>
-        </div>
-      </div>
-    </nav>
+<?php get_header(); ?>
     <!-- light slider -->
     <div id="light-slider" class="carousel slide">
       <div id="carousel-area">
@@ -73,7 +10,7 @@
           </ol>
           <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
-              <img src="img/slider/bg-1.jpg" alt="">
+              <img src="<?php echo get_bloginfo( 'template_directory' );?>/img/slider/bg-1.jpg" alt="">
               <div class="carousel-caption">
                 <h3 class="slide-title animated fadeInDown"><span class="text-primary">Helium </span> - Bootstrap 4 UI Kit</h3>
                 <h5 class="slide-text animated fadeIn">Lorem ipsum dolor sit amet, consectetuer adipiscing elit<br> Curabitur ultricies nisi Nam eget dui. Etiam rhoncus</h5>
@@ -82,7 +19,7 @@
               </div>
             </div>
             <div class="carousel-item">
-              <img src="img/slider/bg-2.jpg" alt="">
+              <img src="<?php echo get_bloginfo( 'template_directory' );?>/img/slider/bg-2.jpg" alt="">
               <div class="carousel-caption">
                 <h3 class="slide-title animated fadeInDown"><span class="text-primary">Cutting-edge</span> Features</h3>
                 <h5 class="slide-text animated fadeIn">Lorem ipsum dolor sit amet, consectetuer adipiscing elit<br> Curabitur ultricies nisi Nam eget dui. Etiam rhoncus</h5>
@@ -90,7 +27,7 @@
               </div>
             </div>
             <div class="carousel-item">
-              <img src="img/slider/bg-3.jpg" alt="">
+              <img src="<?php echo get_bloginfo( 'template_directory' );?>/img/slider/bg-3.jpg" alt="">
               <div class="carousel-caption">
                 <h3 class="slide-title animated fadeInDown"><span class="text-primary">100+ </span> UI Blocks & Components</h3>
                 <h5 class="slide-text animated fadeIn">Lorem ipsum dolor sit amet, consectetuer adipiscing elit<br> Curabitur ultricies nisi Nam eget dui. Etiam rhoncus</h5>
@@ -177,7 +114,7 @@
             <!-- Team Item Starts -->
             <div class="team-item">
               <figure class="team-profile">
-                <img src="img/team/team-01.jpg" alt="">
+                <img src="<?php echo get_bloginfo( 'template_directory' );?>/img/team/team-01.jpg" alt="">
                 <figcaption class="our-team">
                   <div class="details">
                     <p class="content-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -205,7 +142,7 @@
             <!-- Team Item Starts -->
             <div class="team-item">
               <figure class="team-profile">
-                <img src="img/team/team-02.jpg" alt="">
+                <img src="<?php echo get_bloginfo( 'template_directory' );?>/img/team/team-02.jpg" alt="">
                 <figcaption class="our-team">
                   <div class="details">
                     <p class="content-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -234,7 +171,7 @@
             <!-- Team Item Starts -->
             <div class="team-item">
               <figure class="team-profile">
-                <img src="img/team/team-03.jpg" alt="">
+                <img src="<?php echo get_bloginfo( 'template_directory' );?>/img/team/team-03.jpg" alt="">
                 <figcaption class="our-team">
                   <div class="details">
                     <p class="content-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -263,7 +200,7 @@
             <!-- Team Item Starts -->
             <div class="team-item">
               <figure class="team-profile">
-                <img src="img/team/team-04.jpg" alt="">
+                <img src="<?php echo get_bloginfo( 'template_directory' );?>/img/team/team-04.jpg" alt="">
                 <figcaption class="our-team">
                   <div class="details">
                     <p class="content-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -290,27 +227,4 @@
         </div>
       </div> 
     </div>
-
-    <!-- Light Footer -->
-    <footer class="light-footer">
-      <div class="container">
-        <p class="footer-info"><strong>UIdeck</strong> - Bootstrap 4 UI Kit. © 2017 - All Rights Reserved. <span class="pull-right">Designed by <a href="https://uideck.com">UIdeck</a></span></p>
-      </div>
-    </footer>
-  </div>
-  <!-- Page Wrapper End -->
-
-  <!-- jQuery first, then Tether, then Bootstrap JS. -->
-  <script src="js/jquery.min.js"></script>
-  <script src="js/tether.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-
-  <script src="js/jquery.mixitup.js"></script>
-  <script src="js/form-validator.min.js"></script>
-  <script src="js/contact-form-script.js"></script>
-  <script src="js/main.js"></script>
-
-</body>
-
-</html>
+ <?php get_footer(); ?>
