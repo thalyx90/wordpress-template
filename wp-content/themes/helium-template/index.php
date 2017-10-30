@@ -12,15 +12,17 @@
   <title>Headers - Helium Bootstrap 4 UI Kit</title>
 
   <!-- CSS Files -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/owl.carousel.css">
   <link rel="stylesheet" href="css/owl.theme.css">
-  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/responsive.css"> -->
 
   <!-- Fonts icons -->
-  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
+
+  <?php wp_head(); ?>
 
 </head>
 
