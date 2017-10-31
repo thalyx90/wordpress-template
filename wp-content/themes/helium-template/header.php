@@ -52,7 +52,9 @@
             </li>
         
           </ul> -->
-          <?php wp_nav_menu( array( 'theme_location' => 'new-menu' ) ); ?>
+
+          <?php wp_nav_menu( array( 'theme_location' => 'new-menu','menu_class' => 'navbar-nav','container'=>'ul')); ?>
+
           <form class="form-inline hidden-sm-down">
             <div class="top_search_con">
               <input class="form-control mr-sm-2" placeholder="Search Here ..." type="text">
@@ -60,5 +62,7 @@
             </div>
           </form>
         </div>
+
+
       </div>
     </nav>
